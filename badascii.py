@@ -1,7 +1,6 @@
 from PIL import Image
 import cv2
 import time
-from hackytools.timing import perf
 
 def convert(img, size=(50,50)):
     chars = ' .,:;+*%#@'
